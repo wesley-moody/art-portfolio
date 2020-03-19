@@ -35,7 +35,7 @@ Creative Commons (Attribution 3.0 Unported);
 }
 
 const NavWrapper = styled.nav`
-  background: var(--mainBlue);
+  background: var(--darkRed);
   .nav-link {
     color: var(--mainWhite) !important;
     font-size: 1.3rem; //  1rem = 20px
