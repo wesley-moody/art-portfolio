@@ -13,13 +13,14 @@ body {
 }
 
 .text-title {
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  /* text-decoration: underline; */
 }
 
-.text-blue {
-  color: var(--mainBlue);
+.text-red {
+  color: var(--darkRed);
 }
 
 .text-bright {

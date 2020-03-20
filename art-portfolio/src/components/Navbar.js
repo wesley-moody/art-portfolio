@@ -16,7 +16,7 @@ Creative Commons (Attribution 3.0 Unported);
           <img src={art_logo} alt='store' className='navbar-brand' />
         </Link>
         <ul className='navbar-nav.align-items-center'>
-          <li className='nav-item ml-5 var(--main)'></li>
+          <li className='nav-item ml-5 var(--mainWhite)'></li>
           <Link to='/' className='nav-link'>
             See Artwork!
           </Link>
@@ -35,7 +35,7 @@ Creative Commons (Attribution 3.0 Unported);
 }
 
 const NavWrapper = styled.nav`
-  background: var(--darkRed);
+  background: var(--darkGray);
   .nav-link {
     color: var(--mainWhite) !important;
     font-size: 1.3rem; //  1rem = 20px
