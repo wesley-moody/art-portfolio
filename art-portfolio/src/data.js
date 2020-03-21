@@ -13,7 +13,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Bruce Lee",
+    title: "RIP Stan Lee",
     img: "img/product-2.png",
     price: 1,
     company: "DH Illustrations",
@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "RIP Stan Lee",
+    title: "Friend",
     img: "img/product-3.png",
     price: 8,
     company: "DH Illustrations",
@@ -37,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Tech N9ne",
+    title: "Children of Chaos",
     img: "img/product-4.png",
     price: 1,
     company: "DH Illustrations",
@@ -49,7 +49,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "Undertaker???",
+    title: "Bruce Lee",
     img: "img/product-5.png",
     price: 1,
     company: "DH Illustrations",
@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Viking",
+    title: "Tech N9ne",
     img: "img/product-6.png",
     price: 1,
     company: "DH Illustrations",
@@ -73,7 +73,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Children of Chaos",
+    title: "The Viking",
     img: "img/product-7.png",
     price: 1,
     company: "DH Illustrations",
@@ -99,10 +99,10 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Google Pixel - Black",
+  title: "Kobe/Gianna",
   img: "img/product-1.png",
-  price: 10,
-  company: "google",
+  price: 1,
+  company: "DH Illustrations",
   info:
     "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
   inCart: false,

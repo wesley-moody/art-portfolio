@@ -15,7 +15,7 @@ export default class Productlist extends Component {
       <React.Fragment>
         <div className='py-5'>
           <div className='container'>
-            <Title name='My' title='Artwork' />
+            <Title name='DH' title='Illustrations' />
 
             <div className='row'>
               <ProductConsumer>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { ProductConsumer } from "../context";
+// import { ProductConsumer } from "../context";
 
 export default class Product extends Component {
   render() {
@@ -35,8 +35,8 @@ export default class Product extends Component {
           {/*  Card footer */}
 
           <div className='.card-footer d-flex justify-content-between'>
-            <p className='align-self-center mb-0'>{title}</p>
-            <h5 className='text-blue font-italic mb-0'>
+            <p className='align-self-center mb-0 ml-2'>{title}</p>
+            <h5 className='text-blue font-italic mb-0 mr-2'>
               <span className='mr-1'>$</span>
               {price}
             </h5>
@@ -50,11 +50,12 @@ export default class Product extends Component {
 const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
-    transition: all 1s linear;
+    transition: all 1.5s linear;
+    height: 20rem;
   }
 
   .card-footer {
-    background: transparent;
+    background-color: red;
     border-top: transparent;
     transition: all 1s linear;
   }
@@ -72,11 +73,14 @@ const ProductWrapper = styled.div`
 
   card-img-top {
     transition: all 1s linear;
+    height: 15 rem;
   }
 
   .img-container {
+    background-color: var(--darkGray);
     position: relative;
     overflow: hidden;
+    height: 18rem;
   }
 
   .img-container:hover .card-img-top {
