@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Kobe/Gianna",
+    title: "Kobe and Gianna",
     img: "img/product-1.png",
     price: 1,
     company: "DH Illustrations",
