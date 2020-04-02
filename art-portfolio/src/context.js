@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { storeProducts, detailProduct } from "./data";
+import { storeProducts, detailProduct } from "./details";
 
 const ProductContext = React.createContext();
 //Provider
@@ -149,7 +149,7 @@ class ProductProvider extends Component {
   addTotals = () => {
     let subTotal = 0;
     this.state.cart.map(item => (subTotal += item.total));
-    const tempTax = subTotal * 0.1; // local tax rate
+    const tempTax = subTotal * 0.65; // local tax rate (JOCO tax rate is 6.5%)
     const tax = parseFloat(tempTax.toFixed(2)); // toFixed(2) is round decimal to 2 digits
     const total = subTotal + tax;
     this.setState(() => {

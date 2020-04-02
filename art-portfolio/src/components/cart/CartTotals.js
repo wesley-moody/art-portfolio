@@ -22,7 +22,7 @@ export default function CartTotals({ value, history }) {
               <strong>$ {cartSubTotal}</strong>
             </h5>
             <h5>
-              <span className='text-title'>cartTax :</span>
+              <span className='text-title'>cart-tax :</span>
               <strong>$ {cartTax}</strong>
             </h5>
             <h5>
