@@ -36,16 +36,16 @@ export default class Details extends Component {
                   <h4 className='text-title text-uppercase text-muted mt-3 mb-2'>
                     made by : <span className='text-uppercase'>{company}</span>
                   </h4>
-                  <h4 className='text-blue'>
+                  <h4>
                     <strong>
                       price : <span>$</span>
                       {price}
                     </strong>
                   </h4>
-                  <p className='text-capitalize.font-weight-bold.mt-3.mb-0'>
-                    Artist Description goes here:
-                  </p>
-                  <p className='text-muted lead'>{info}</p>
+                  <h5 className='text-capitalize.font-weight-bold.mt-3.mb-0'>
+                    Description
+                  </h5>
+                  <h5 className='text-muted lead'>{info}</h5>
                   {/* buttons */}
                   <div>
                     <Link to='/'>

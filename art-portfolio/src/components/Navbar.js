@@ -12,19 +12,17 @@ export default class Navbar extends Component {
 https://www.iconfinder.com/icons/1243689/art_logo_icon
 Creative Commons (Attribution 3.0 Unported);
       https://www.iconfinder.com/Makoto_msk */}
-        <Link to='/'>
-          <img src={art_logo} alt='store' className='navbar-brand' />
-        </Link>
-        <ul className='navbar-nav.align-items-center'>
-          <li className='nav-item ml-5 var(--mainWhite)'></li>
+        <Link to='/'></Link>
+            <ul className='navbar-nav.align-items-center'>
+            <ul className='nav-item ml-5'></ul>
           <Link to='/' className='nav-link'>
-            See Artwork!
+            Back to Gallery
           </Link>
         </ul>
         <Link to='/cart' className='ml-auto'>
           <ButtonContainer>
             <span className='mr-2'>
-              <i className='fas fa-pallette' />
+              <i className='fas fa-shopping-cart' />
             </span>
             my cart
           </ButtonContainer>
@@ -37,7 +35,7 @@ Creative Commons (Attribution 3.0 Unported);
 const NavWrapper = styled.nav`
   background: var(--darkGray);
   .nav-link {
-    color: var(--mainWhite) !important;
+    color: var(--darkRed) !important;
     font-size: 1.3rem; //  1rem = 20px
     text-transform: capitalize;
   }
