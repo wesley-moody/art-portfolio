@@ -12,9 +12,16 @@ body {
   color: var(--mainDark) !important;
 }
 
-hero-img {
-  position: center;
-}
+
+/* heroImg {
+  width: 100%;
+  height: 500px;
+  background-image: url("./components/assets/DHIllustrations.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+} */
 
 .text-title {
   font-family: "Permanent Marker";

@@ -1,4 +1,5 @@
 import React from "react";
+import "./comp.css";
 
 export default function Title({ name, title }) {
   return (

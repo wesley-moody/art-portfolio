@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../logo.svg";
+import Logo from "../components/assets/art_logo.png";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5'>
+      <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5 navbump'>
         {/* 
         https://www.iconfinder.com/icons/1243689/art_logo_icon
         Creative Commons (Attribution 3.0 Unported);
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
             my cart
           </ButtonContainer>
         </Link>
-      </NavWrapper>        
+      </NavWrapper>
     );
   }
 }

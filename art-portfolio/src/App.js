@@ -12,7 +12,7 @@ import Modal from "./components/Modal";
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <div className='App'>
         {/* Simulates HTML tags throughout component */}
         <Navbar />
         {/* Outside of Switch b/c it appears on every page. */}
@@ -23,7 +23,7 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
-      </React.Fragment>
+      </div>
     );
   }
 }
