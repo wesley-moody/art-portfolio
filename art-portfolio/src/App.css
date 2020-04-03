@@ -29,7 +29,7 @@ img.navbar-brand {
 }
 
 div.card {
-  box-shadow: 10px 15px var(--darkGray);
+  box-shadow: 5px 10px var(--darkGray);
 }
 
 .text-red {
@@ -69,5 +69,6 @@ div.cart-icon {
 .cart-btn {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--darkRed);
+  color: #c6aa21;
+  background-color: #c6aa21;
 }
