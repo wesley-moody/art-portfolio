@@ -33,7 +33,7 @@ div.card {
 }
 
 .text-red {
-  color: var(--darkRed);
+  color: var(--darkRed); 
 }
 
 .text-bright {
