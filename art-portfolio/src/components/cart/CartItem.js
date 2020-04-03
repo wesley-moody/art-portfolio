@@ -9,7 +9,7 @@ export default function CartItem({ item, value }) {
       <div className='col-10 mx-auto col-lg-2'>
         <img
           src={img}
-          style={{ width: "5rem", height: "5rem" }}
+          style={{ width: "8rem", height: "8rem" }}
           className='img-fluid'
           alt='artwork'
         />
@@ -19,8 +19,7 @@ export default function CartItem({ item, value }) {
         {title}
       </div>
       <div className='col-10 mx-auto col-lg-2'>
-        <span className='d-lg-none'>price : </span>
-        {price}
+        <span className='d-lg-none'>price : </span>$ {price}
       </div>
       <div className='col-10 mx-auto col-lg-2 my-2 my-lg-0'>
         <div className='d-flex justify-content-center'>

@@ -20,7 +20,7 @@ export default class Navbar extends Component {
         <ul className='navbar-nav.align-items-center'>
           <ul className='nav-item ml-5'></ul>
           <Link to='/' className='nav-link'>
-            Back to Gallery
+            View Gallery 
           </Link>
         </ul>
         <Link to='/cart' className='ml-auto'>
@@ -40,7 +40,8 @@ const NavWrapper = styled.nav`
   background: var(--darkGray);
   .nav-link {
     color: var(--darkRed) !important;
-    font-size: 1.3rem; //  1rem = 20px
+    font-size: 1.8rem; //  1rem = 20px
     text-transform: capitalize;
+    text-decoration: underline;
   }
 `;

@@ -3,7 +3,7 @@
   --darkGray: #232528;
   --mainWhite: #f3f3f3;
   --mainDark: #060607;
-  --mainBlue: #0047ba;
+  --mainBlue: #ff9933;
 }
 
 body {
@@ -12,16 +12,14 @@ body {
   color: var(--mainDark) !important;
 }
 
+nav.navbar {
+  padding-top: 3%;
+  padding-bottom: 1.5%;
+}
 
-/* heroImg {
-  width: 100%;
-  height: 500px;
-  background-image: url("./components/assets/DHIllustrations.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-} */
+img.navbar-brand {
+  padding-bottom: 20px;
+}
 
 .text-title {
   font-family: "Permanent Marker";
@@ -30,12 +28,28 @@ body {
   text-decoration: underline var(--darkRed);
 }
 
+div.card {
+  box-shadow: 10px 15px var(--darkGray);
+}
+
 .text-red {
   color: var(--darkRed);
 }
 
 .text-bright {
   color: var(--darkGray);
+}
+
+h1 {
+  padding: 2rem 0 3rem;
+}
+
+h5 {
+  padding: 0.4rem;
+}
+
+div.cart-icon {
+  color: darkred;
 }
 
 .btn-black {
@@ -51,8 +65,9 @@ body {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
-.cart-icon {
+
+.cart-btn {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--mainBlue);
+  color: var(--darkRed);
 }
